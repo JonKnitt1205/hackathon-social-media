@@ -5,6 +5,12 @@
 - Learned to change an image when hovering over the element
 - Made the post cards responsive to diffrent screen sizes
 
+## TODO:
+- Use firebase to make user accounts
+- Create comments section page
+- link database to the actual post content for the images, text, user details, and likes
+- image upload to go through anti-ai watermarking
+
 ## Resources:
 - Comment Icon: https://www.svgrepo.com/svg/522067/comment-1
 - Heart Icon: https://www.svgrepo.com/svg/522147/heart-like
