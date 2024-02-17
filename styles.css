@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt,wght.ttf);
+  }
+
+html {
+    font-family: "Inter", sans-serif;
+    --bg-color: #141414;
+    --card-bg-color: #1f1f1f;
+    --button-bg-color: #333333;
+    --button-hover-bg-color: #c5f82a;
+    --white-text-color: #ffffff;
+    --grey-text-color: #a6a6a6;
+    color: var(--white-text-color);
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    margin: 0;
+    width: min(85%, 800px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-post {
+    margin: 2%;
+    background-color: var(--card-bg-color);
+    height: fit-content;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 5%;
+    padding-block: 2%;
+}
+
+.user-banner {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.user-image-link {
+    width: 15%;
+}
+
+.user-image {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.user-name {
+    display: flex;
+    align-items: center;
+    font-size: max(2vw, 20px);
+    width: 60%;
+}
+
+.user-name > * {
+    text-decoration: none;
+    color: var(--white-text-color);
+}
+
+.user-name > *:hover {
+    text-decoration: underline;
+    color: var(--button-hover-bg-color);
+}
+
+.post-time {
+    font-size: max(1vw, 10px);
+    color: var(--grey-text-color);
+}
+
+.image-holder {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.post-image {
+    width: 60%;
+    border-radius: 1vw;
+}
+
+.post-content {
+    margin-top: 2%;
+    font-size: max(1.5vw, 15px);
+}
+
+.icon-banner {
+    width: 100%;
+    display: flex;
+}
+
+.icon-banner * {
+    width: 100%;
+    margin-right: 5%;
+}
+
+.icon-banner > * {
+    width: 8%;
+}
+
+.heart-icon:hover, .comment-icon:hover {
+    cursor: pointer;
+}
+
+.heart-icon {
+    background-image: url(./assets/icons/heart.svg);
+}
+
+.comment-icon {
+    background-image: url(./assets/icons/comment.svg);
+}
