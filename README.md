@@ -10,6 +10,7 @@
 - Create comments section page
 - link database to the actual post content for the images, text, user details, and likes
 - image upload to go through anti-ai watermarking
+- follow and copy user authentication turtorial
 
 ## Resources:
 - Comment Icon: https://www.svgrepo.com/svg/522067/comment-1
