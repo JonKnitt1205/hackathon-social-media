@@ -1,0 +1,16 @@
+{
+  "name": "hackathon-social-media",
+  "version": "1.0.0",
+  "description": "## Things we did: - Setup node.js reload server, while coding through ssh into a linux server hosted on a macbook - Learned to change an image when hovering over the element - Made the post cards responsive to diffrent screen sizes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "espress": "^0.0.0",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
