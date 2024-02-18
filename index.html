@@ -10,51 +10,25 @@
 <body>
     <header class="user-post">
         <div class="header-banner">
-            <a href=""><img class="back-icon" src="./assets/icons/back.svg" alt="Go Back" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
+            <img class="back-icon" src="" alt="" onmouseover="hover(this);" onmouseout="unhover(this);">
             <h1>Posts</h1>
         </div>
     </header>
+
+    <form method="POST" class="user-post">
+        <h1>New Post</h1>
+        <textarea class="userInput"></textarea>
+        
+        <div class="image-input">
+            <label for="image-input">Add an image (optional):</label>
+            <input type="file" id="image-input-button" accept="image/png, image/jpeg" />
+        </div>
+
+        <div class="post-button">
+            <input type="submit" value="Create Post"/>
+        </div>
+    </form>
     
-    <div class="user-post">
-        <div class="user-banner">
-            <a href="" class="user-image-link"><img class="user-image" src="./assets/avatar-jessica.jpeg" alt="User Profile Image"></a>
-            <h1 class="user-name"><a href="">John Smith</a></h1>
-            <p class="post-time">2/17/24 3:57pm</p>
-        </div>
-        <p class="post-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid id minima eaque? Eos atque iste repudiandae facilis accusantium laboriosam impedit. Illo unde esse consequuntur obcaecati, voluptatum harum temporibus enim.</p>
-        <div class="image-holder"><img class="post-image" src="./assets/dogs.jpg"></div>
-        <div class="icon-banner">
-            <div>
-                <a href=""><img class="heart-icon" src="./assets/icons/heart.svg" alt="Comments" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
-                <p class="like-counter">100</p>
-            </div>
-            <div>
-                <p class="comment-counter">5</p>
-                <a href="comments.html"><img class="comment-icon" src="./assets/icons/comment.svg" alt="Comments" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
-            </div>
-        </div>
-    </div>
-
-    <div class="user-post">
-        <div class="user-banner">
-            <a href="" class="user-image-link"><img class="user-image" src="./assets/avatar-jessica.jpeg" alt="User Profile Image"></a>
-            <h1 class="user-name"><a href="">John Smith</a></h1>
-            <p class="post-time">2/17/24 3:57pm</p>
-        </div>
-        <p class="post-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi aliquid id minima eaque? Eos atque iste repudiandae facilis accusantium laboriosam impedit. Illo unde esse consequuntur obcaecati, voluptatum harum temporibus enim.</p>
-        <div class="image-holder"><img class="post-image" src="./assets/dogs.jpg"></div>
-        <div class="icon-banner">
-            <div>
-                <a href=""><img class="heart-icon" src="./assets/icons/heart.svg" alt="Comments" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
-                <p class="like-counter">100</p>
-            </div>
-            <div>
-                <p class="comment-counter">5</p>
-                <a href="comments.html"><img class="comment-icon" src="./assets/icons/comment.svg" alt="Comments" onmouseover="hover(this);" onmouseout="unhover(this);"></a>
-            </div>
-        </div>
-    </div>
-
     <div class="user-post">
         <div class="user-banner">
             <a href="" class="user-image-link"><img class="user-image" src="./assets/avatar-jessica.jpeg" alt="User Profile Image"></a>
