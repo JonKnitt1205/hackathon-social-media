@@ -14,6 +14,7 @@
 - make a script that populates page with all posts as you scroll
 - make a script that populates page with current post comments as you scroll
 - add function to like button and change it to be filled when current user has liked this item
+- style up the submit button
 
 ## Resources:
 - Comment Icon: https://www.svgrepo.com/svg/522067/comment-1
