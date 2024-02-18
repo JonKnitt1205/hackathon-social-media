@@ -14,7 +14,8 @@ html {
     color: var(--white-text-color);
     background-color: var(--bg-color);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 body {
@@ -35,6 +36,7 @@ body {
     flex-direction: column;
     padding-inline: 10%;
     padding-block: 2.5%;
+    width: 80%;
 }
 
 .user-banner {
@@ -129,4 +131,28 @@ body {
 
 .comment-icon {
     background-image: url(./assets/icons/comment.svg);
+}
+
+header {
+    font-size: max(1.5vw, 15px);
+}
+
+.header-banner {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.header-banner a {
+    display: flex;
+    align-items: center;
+}
+
+.header-banner h1 {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.back-icon {
+    width: 30%;
 }

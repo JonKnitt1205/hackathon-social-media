@@ -6,6 +6,9 @@ function hover(element) {
         case "comment-icon":
             element.setAttribute('src', './assets/icons/hover-comment.svg');
             break;
+        case "back-icon":
+            element.setAttribute('src', './assets/icons/hover-back.svg');
+            break;
         default:
             break;
     }
@@ -18,6 +21,9 @@ function hover(element) {
             break;
         case "comment-icon":
             element.setAttribute('src', './assets/icons/comment.svg');
+        break;
+        case "back-icon":
+            element.setAttribute('src', './assets/icons/back.svg');
             break;
         default:
             break;
